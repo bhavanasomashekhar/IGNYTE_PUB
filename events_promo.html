@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events and Promotions - Ignyt</title>
+  <link rel="icon" type="image/x-icon" href="https://lh3.googleusercontent.com/p/AF1QipMA1DGDHG4M4k52izf50wMFSmzC7sZVU7O-TSEj=s1360-w1360-h1020" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #ddc80d;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      border-radius: 10px 10px 0 0;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 0 0 10px 10px;
+    }
+
+    .events-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .event {
+      width: calc(33.33% - 20px);
+      box-sizing: border-box;
+      padding: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .event:hover {
+      transform: translateY(-10px);
+    }
+
+    .event img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+    .event h2 {
+      color: #333;
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    .event p {
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .join-button {
+      background-color: #ddc80d;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+      display: inline-block;
+    }
+
+    .join-button:hover {
+      background-color: #333;
+      transform: scale(1.05);
+    }
+
+    #footer {
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      border-radius: 0 0 10px 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Ignyt's Events and Promotions</h1>
+  </header>
+
+  <main>
+    <div class="events-container">
+      <section class="event">
+        <h2>Live Music Festival</h2>
+        <img src="https://img.freepik.com/premium-photo/silhouette-people-concert-music-festival-with-neon-lights-ai_108146-4664.jpg" alt="Music Night" />
+        <p class="date">Date: 27th January 2024</p>
+        <p>Experience the vibrant energy of local bands as they take the stage in our Live Music Festival. Indulge in delicious food and drinks amidst the lively atmosphere.</p>
+        <button class="join-button">Join Now!</button>
+      </section>
+
+      <section class="event">
+        <h2>Artisanal Drinks Festival</h2>
+        <img src="https://images.unsplash.com/photo-1591243315780-978fd00ff9db?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBhcnR5JTIwZHJpbmtzfGVufDB8fDB8fHww" alt="Food Festival" />
+        <p class="date">Date: 3rd April 2024</p>
+        <p>Embark on a journey of taste with our Artisanal Drinks Festival. Savor a diverse selection of handcrafted beverages paired with delectable dishes for an unforgettable experience.</p>
+        <button class="join-button">Join Now!</button>
+      </section>
+
+      <section class="event">
+        <h2>Culinary Delights Festival</h2>
+        <img src="https://www.japjitravel.com/blog/wp-content/uploads/2022/09/festive-party-food.jpeg" alt="Food Festival" />
+        <p class="date">Date: 14th April 2024</p>
+        <p>Explore a world of flavors at our Culinary Delights Festival. From savory to sweet, our curated selection of dishes promises to tantalize your taste buds and leave you craving for more.</p>
+        <button class="join-button">Join Now!</button>
+      </section>
+    </div>
+  </main>
+  <footer id="footer">
+    &copy; 2024 Ignyt Restaurant. All rights reserved.
+  </footer>
+</body>
+</html>
